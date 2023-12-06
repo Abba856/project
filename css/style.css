@@ -1,0 +1,112 @@
+/* Reset some default styles and apply a background color to the body */
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #46d305;
+	font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* Center the header image */
+  #headerImg {
+	display: block;
+	margin: 0 auto;
+	margin-top: 1em;
+  }
+  
+  /* Style the main container for the form */
+  .w3layouts_main {
+	max-width: 600px;
+	margin: 0 auto;
+	background: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Center the form title */
+  .w3layouts_main h1 {
+	text-align: center;
+	font-size: 1.5em;
+	color: #333;
+  }
+  
+  /* Style the satisfaction rating options */
+  .agile_info_select {
+	list-style: none;
+	padding: 0;
+  }
+  
+  .agile_info_select li {
+	margin: 10px 0;
+  }
+  
+  .agile_info_select label {
+	font-weight: bold;
+  }
+  
+  /* Style the additional comments textarea */
+  .w3l_summary {
+	width: 100%;
+	height: 100px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	resize: vertical;
+  }
+  
+  /* Style the input fields */
+  input[type="text"] {
+	width: 100%;
+	padding: 10px;
+	margin: 5px 0;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+  }
+  
+  /* Style the submit button */
+  .agileinfo {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	background: #007BFF;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  /* Style the admin login link */
+  .agileits_copyright a {
+	text-decoration: none;
+	color: #007BFF;
+  }
+  
+/* Style the course dropdown */
+select[name="course"] {
+	width: 100%;
+	padding: 10px;
+	margin: 5px 0;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background: #fff;
+	color: #333;
+  }
+  
+  /* Style the course dropdown options */
+  select[name="course"] option {
+	color: #333;
+  }
+  
+  /* Style the admin login link */
+  .agileits_copyright a {
+	text-decoration: none;
+	color: #007BFF;
+	display: block;
+	margin-top: 10px;
+  }
+  
+  /* Add some margin to the Submit button */
+  .agileinfo {
+	margin-top: 10px;
+  }
+  
